@@ -1,0 +1,372 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family: font5;
+	src: url("font/Lobster 1.4.otf");
+}
+@font-face{
+	font-family: font6;
+	src: url("font/HoboStd.otf");
+}
+@font-face{
+	font-family: font2;
+	src: url("font/Dancing Script.ttf");
+}
+@font-face{
+	font-family: font1;
+	src: url("font/Amsterdam Personal Use.ttf");
+}
+@font-face{
+	font-family: font3;
+	src: url("font/Amsterdam Personal Use.ttf");
+}
+@font-face{
+	font-family: font4;
+	src: url("font/OpenSans-Regular.ttf");
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li{
+	list-style: none;
+	padding:10px 40px 0px 40px;
+	
+}
+nav ul li a{
+	font-family: 'font1';
+	font-size:16px;
+	color:#4cb6fc;
+	text-decoration: none;
+}
+.banner img{
+	width: 100%;
+
+}
+.title1{
+	text-align: center;
+}
+.title1 h3{
+	font-family: 'font2';
+	font-size: 40px;
+	color:#e16fa7;
+}
+
+.title1 p{
+	font-family: 'Myriad Pro';
+	font-size: 16px;
+	font-style: italic;
+	color: #717171;
+
+}
+#about-content{
+	background: #f3f3f3;
+	margin-top: 60px;
+}
+.this-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 80px;
+	padding-bottom: 20px;
+}
+.this-content img{
+	width: 70px;
+	height: 77px;
+}
+.this-content h4{
+	font-family: 'font5';
+	color: #e16fa7;
+	font-weight: normal;
+	font-size: 28px;
+
+}
+.this-content p{
+	font-family: 'Myriad Pro';
+	font-size: 18px;
+	margin-top: 5px;
+	color: #b6b6b6;
+
+}
+.read-more{
+	width: 100px;
+	height: 35px;
+	background: grey;
+	border-radius: 3px;
+	text-align: center;
+	margin-top: 20px;
+	transition-duration: 0.5s;
+}
+.read-more:hover{
+	background: #4cb6fc;
+	cursor: pointer;
+}
+.read-more p{
+	color: white;
+	font-family: 'font6';
+	font-size: 15px;
+	padding-top: 10px;
+}
+#tieude{
+	margin-top: 20px;	
+}
+.service-content{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 70px; 
+	margin-top: 100px;
+}
+.service-content h3{
+	font-family: 'font5';
+	font-size: 26px;
+	color:#e16fa7;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.service-content p{
+	font-family: 'Myriad Pro';
+	font-size: 15px;
+	font-style: italic;	
+	color: #aeaeae;
+	margin-top: 10px;
+	line-height: 22px;
+}
+.ourteam{
+	background-image: url("img/2_2.png");
+	margin-top:70px;
+}
+.title2{
+	padding-top: 40px;
+}
+.title2 h3{
+	color: white;	
+}
+.title2 p{
+	color: white;
+	font-family: 'font2';
+	font-size: 22px;
+	font-style: normal;
+}
+.cooker{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin-top: 70px;
+	padding-bottom: 80px;
+
+
+}
+.cooker h4{
+	font-family: 'font2';
+	font-size: 32px;
+	color: white;
+}
+.cooker img{
+	width: 220px;
+	height: 190px;
+}
+.cooker p{
+	font-family: 'font4';
+	color: white;
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 10px;
+}
+.tongquat{
+	display: grid; 
+	grid-template-columns: 33.33% 33.33% 33.33%
+
+}
+.khung {
+	text-align: center;
+	background: #f3f3f3;
+	border-top: 1.5px solid #bfbdbd;
+	border-bottom: 1.5px solid #bfbdbd;
+	width: 300px;
+	margin-top: 80px;
+	padding: 30px 10px 20px 10px;
+	margin-left: 40px;
+
+}
+.khung h3{
+	font-family: 'font2';
+	font-size: 32px;
+	color: #4cb6fc;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+.khung p{
+	font-family: 'Myriad Pro';
+	font-size: 15px;
+	font-style: italic;	
+	line-height: 40px;
+	color: #b6b6b6;
+	margin-top: 8px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.khung h4 {
+	font-family: 'Myriad Pro';
+	font-size: 55px;
+	color: #e16fa7;
+	font-weight: normal;
+
+}
+.order-now{
+	width: 120px;
+	height: 40px;
+	background: grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 90px;
+	transition-duration: 0.5s;
+}
+.order-now h5{
+	padding-top: 10px;
+	
+}
+.order-now a{
+	color: white;
+	text-decoration: none;
+	font-family: 'font6';
+	font-size: 16px;
+	font-weight: normal;
+}
+.order-now:hover{
+	background: #4cb6fc;	
+}
+.khachhang{
+	background: url("img/bonghoa.png");
+	margin-top:100px;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+.khung-khachhang{
+	background: white;
+	text-align: center;
+	border-bottom: 1.5px solid #bfbdbd;
+	width: 320px;
+	margin-top: 20px;
+	margin-left: 430px;
+	padding: 30px 10px 20px 10px;
+	margin-bottom: 20px;
+}
+.khung-khachhang h3{
+	font-family: 'font2';
+	font-size: 32px;
+	color: #4cb6fc;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+.khung-khachhang p{
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	font-style: italic;	
+	line-height: 25px;
+	color: #737373;
+	margin-top: 12px;
+	text-align: center;
+	padding-bottom: 80px;
+	
+}
+footer{
+	background: #f3f3f3;
+}
+footer .baoquat{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 60px;
+	padding: 50px 50px;
+}
+footer .baoquat .bentrai p{
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	line-height: 25px;
+	color: #737373;
+}
+footer .baoquat .bentrai{
+	width: 78%;
+	margin-left: 50px;
+}
+footer .baoquat .bentrai .hinh{
+	text-align: center;
+	cursor: pointer;
+}
+footer .baoquat .bentrai .icon-social{
+	cursor: pointer;
+	margin-top: 20px;
+
+}
+footer .baoquat .bentrai .icon-social img{
+	width: 45px;
+	height: 45px;
+	padding-right:  20px;
+}
+footer .baoquat .benphai{
+	margin-top: 15px;
+	width: 80%;
+	margin-left: 60px;
+}
+footer .baoquat .benphai .thongtin input{
+	padding:10px 150px 10px 10px;
+	margin-top: 15px;
+	border: 1px solid #e16fa7;
+	border-radius: 10px;
+}
+footer .baoquat .benphai  .thongtin2 input{
+	padding:10px 150px 100px 10px;
+}
+
+footer .baoquat .benphai .thongtin input[type="text"]{
+	color:#4cb6fc;
+}
+footer .baoquat .benphai .thongtin input[type="text"]:focus{
+	outline: none;
+}
+button{
+	background: white;
+	color: #4cb6fc;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 15px;
+	margin-left: 245px;
+	border:none;
+	font-family: 'Myriad Pro';
+	font-size: 15px;
+	transition-duration: 0.5s;
+	border: solid 1px #4cb6fc;
+	cursor: pointer;
+}
+
+button:hover{
+	background:#4cb6fc;
+	color: white;
+
+}	
+.copy{
+	background: #d7d7d7;
+	text-align: center;
+	padding: 10px 10px;
+
+}
+.copy p{
+	color: #737373;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
