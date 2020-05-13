@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family: font5;
+	src: url("font/Lobster 1.4.otf");
+}
+@font-face{
+	font-family: font6;
+	src: url("font/HoboStd.otf");
+}
+@font-face{
+	font-family: font2;
+	src: url("font/Dancing Script.ttf");
+}
+@font-face{
+	font-family: font1;
+	src: url("font/Amsterdam Personal Use.ttf");
+}
+@font-face{
+	font-family: font3;
+	src: url("font/Amsterdam Personal Use.ttf");
+}
+@font-face{
+	font-family: font4;
+	src: url("font/OpenSans-Regular.ttf");
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+footer{
+	background: #f3f3f3;
+}
+footer .baoquat{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 60px;
+	padding: 50px 50px;
+}
+footer .baoquat .bentrai p{
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	line-height: 25px;
+	color: #737373;
+}
+footer .baoquat .bentrai{
+	width: 78%;
+	margin-left: 50px;
+}
+footer .baoquat .bentrai .hinh{
+	text-align: center;
+	cursor: pointer;
+}
+footer .baoquat .bentrai .icon-social{
+	cursor: pointer;
+	margin-top: 20px;
+
+}
+footer .baoquat .bentrai .icon-social img{
+	width: 45px;
+	height: 45px;
+	padding-right:  20px;
+}
+footer .baoquat .benphai{
+	margin-top: 15px;
+	width: 80%;
+	margin-left: 60px;
+}
+footer .baoquat .benphai .thongtin input{
+	padding:10px 150px 10px 10px;
+	margin-top: 15px;
+	border: 1px solid #e16fa7;
+	border-radius: 10px;
+}
+footer .baoquat .benphai  .thongtin2 input{
+	padding:10px 150px 100px 10px;
+}
+
+footer .baoquat .benphai .thongtin input[type="text"]{
+	color:#4cb6fc;
+}
+footer .baoquat .benphai .thongtin input[type="text"]:focus{
+	outline: none;
+}
+button{
+	background: white;
+	color: #4cb6fc;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 15px;
+	margin-left: 245px;
+	border:none;
+	font-family: 'Myriad Pro';
+	font-size: 15px;
+	transition-duration: 0.5s;
+	border: solid 1px #4cb6fc;
+	cursor: pointer;
+}
+
+button:hover{
+	background:#4cb6fc;
+	color: white;
+
+}	
+.copy{
+	background: #d7d7d7;
+	text-align: center;
+	padding: 10px 10px;
+
+}
+.copy p{
+	color: #737373;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
