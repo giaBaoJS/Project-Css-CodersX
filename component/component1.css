@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family: font5;
+	src: url("../font/Lobster 1.4.otf");
+}
+@font-face{
+	font-family: font6;
+	src: url("../font/HoboStd.otf");
+}
+@font-face{
+	font-family: font2;
+	src: url("../font/Dancing Script.ttf");
+}
+@font-face{
+	font-family: font1;
+	src: url("../font/Amsterdam Personal Use.ttf");
+}
+@font-face{
+	font-family: font3;
+	src: url("../font/Amsterdam Personal Use.ttf");
+}
+@font-face{
+	font-family: font4;
+	src: url("../font/OpenSans-Regular.ttf");
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li{
+	list-style: none;
+	padding:10px 40px 0px 40px;
+	
+}
+nav ul li a{
+	font-family: 'font1';
+	font-size:16px;
+	color:#4cb6fc;
+	text-decoration: none;
+}
+.banner img{
+	width: 100%;
+
+}
